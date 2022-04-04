@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Apple Watch Series 6 44",
+        "image": "https://www.startech.com.bd/image/cache/catalog/watch/apple/series-6-milanese-loop/series-6-milanese-loop-500x500.jpg",
+        "price": 35999
+    },
+    {
+        "id": 2,
+        "name": "Apple Watch Series 6 A2292",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/series-6/series-6-0006-500x500.jpg",
+        "price": 34599
+    },
+    {
+        "id": 3,
+        "name": "Apple Watch Series 6 (M00H3CH/A)",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/series-6/series-6-500x500.jpg",
+        "price": 39999
+    },
+    {
+        "id": 4,
+        "name": "Apple Watch Series 6 A2292 Red",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/series-6-red/series-6-red-500x500.jpg",
+        "price": 40999
+    },
+    {
+        "id": 5,
+        "name": "Apple Watch Series 4 (MU6D2LL/A)",
+        "image": "https://www.startech.com.bd/image/cache/catalog/watch/apple/mu6d2ll-a/mu6d2ll-a-1-500x500.jpg",
+        "price": 42999
+    },
+    {
+        "id": 6,
+        "name": "Apple Watch SE A2351 (MYDM2LL/A)",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/apple-watch-se/apple-watch-se-110-500x500.jpg",
+        "price": 45000
+    },
+    {
+        "id": 7,
+        "name": "Apple Watch Series 7 45mm White",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/apple-watch-nike/starlight/apple-watch-nike-starlight-01-500x500.jpg",
+        "price": 49999
+    },
+    {
+        "id": 8,
+        "name": "Apple Watch Series 7 45mm Black",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/apple-watch-nike/black/apple-watch-nike-black-01-500x500.jpg",
+        "price": 52999
+    },
+    {
+        "id": 9,
+        "name": "Apple Watch Series 6 A2292",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/series-6/series-6-01-500x500.jpg",
+        "price": 60000
+    },
+    {
+        "id": 10,
+        "name": "Apple Watch Series 7 Blue",
+        "image": "https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/series-7/abyss-blue/apple-watch-series-7-45mm-blue-01-500x500.jpg",
+        "price": 65999
+    }
+]
