@@ -9,7 +9,7 @@ const Reviews = () => {
 
     return (
         <div className='review d-flex justify-content-center flex-wrap'>
-            <h1 className='mt-5'>What our customer say!</h1>
+            <h1 className='mt-5'>What our customers say!</h1>
             <div className='review d-flex justify-content-center flex-wrap'>
                 {
                     reviews.map(review => <SingleReviewCard review={review} key={review.id}></SingleReviewCard>)

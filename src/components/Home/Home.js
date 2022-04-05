@@ -16,7 +16,9 @@ const Home = () => {
                         <h1>You wil be smart</h1>
                         <h1>When you have a smart watch</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, vero officia? At labore nihil aliquid error expedita inventore velit distinctio illo doloremque deserunt quasi molestiae reprehenderit ab odio, iure voluptatibus!</p>
+                    <p className='description'>A smartwatch is a wearable computing device that closely resembles
+                        <br></br>
+                        a wristwatch or other time-keeping device. We have many beautiful smart watches . Go for it!</p>
                 </div>
                 <div className='me-5'>
                     <img className='image' src="https://www.startech.com.bd/image/cache/catalog/smart-watch/apple/apple-watch-nike/black/apple-watch-nike-black-01-500x500.jpg" alt="" />

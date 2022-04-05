@@ -6,3 +6,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.description {
+    font-size: 18px;
+}

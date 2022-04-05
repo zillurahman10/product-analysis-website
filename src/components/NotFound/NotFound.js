@@ -5,10 +5,10 @@ const NotFound = () => {
     return (
         <div className='d-flex justify-content-center align-content-center mt-5'>
             <div>
-                <h3>This page is not available</h3>
-                <h1 className='d-flex justify-content-center'>404</h1>
+                <h2 className='d-flex justify-content-center'>Page Not Found!!</h2>
+                <img className='rounded-3' src="https://aioseo.com/wp-content/uploads/2021/04/how-to-find-and-fix-404-errors-in-wordpress.png" alt="" />
                 <div className='d-flex justify-content-center'>
-                    <Link className='btn btn-primary ' to="/">Back ot home page</Link>
+                    <Link className='btn btn-primary mt-3' to="/">Back ot home page</Link>
                 </div>
             </div>
         </div>
