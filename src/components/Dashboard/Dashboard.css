@@ -4,5 +4,16 @@
 
 .pia-chart {
     margin-right: 100px;
-    margin-bottom: 20px;
+}
+
+.analytics {
+    font-weight: bold;
+}
+
+.chart-title {
+    margin-left: 90px;
+}
+
+.pie-chart-title {
+    margin-left: 80px;
 }
