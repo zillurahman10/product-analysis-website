@@ -5,7 +5,7 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 const Header = () => {
 
-    /* const review = [
+    const review = [
         {
             id: 1,
             name: 'Imansyah Muhamad Putera',
@@ -44,39 +44,39 @@ const Header = () => {
         {
             id: 6,
             name: 'Kopmu Chaplin',
-            img: '',
-            review: '',
-            ratings: '4.5/5'
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMbZaTqLkl-u7hp5ARGM-TbjEmn0PQDfkQwA&usqp=CAU',
+            review: 'Very good response and delivary was fine',
+            ratings: '4/5'
         },
         {
             id: 7,
-            name: '',
-            img: '',
-            review: '',
-            ratings: '4.5/5'
+            name: 'Craon Shinchan',
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0J3UmFWmkCK1dScxjgh-2UXHB25ZLHkX9Lg&usqp=CAU',
+            review: 'Good job. One of my satisfied order in my life',
+            ratings: '5/5'
         },
         {
             id: 8,
-            name: '',
-            img: '',
-            review: '',
-            ratings: '4.5/5'
+            name: 'Jonny',
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkKu1rhh09Vk6WW3ZVfEEMwIxTUizJVbLRag&usqp=CAU',
+            review: 'What a beautiful watch. Thanks smart series',
+            ratings: '4/5'
         },
         {
             id: 9,
-            name: '',
-            img: '',
-            review: '',
+            name: 'Izusek',
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzofaVPQgIFLErKW0a1lZrhbEj2MXT1yHE1g&usqp=CAU',
+            review: 'I appreciate you for good job',
             ratings: '4.5/5'
         },
         {
             id: 10,
-            name: '',
-            img: '',
-            review: '',
-            ratings: '4.5/5'
+            name: 'fameli golbo',
+            img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJZb9EX9gpPT6Jcza3gwG5QCYh7On8fAgh1w&usqp=CAU',
+            review: 'Not good as well. I do not like any product of smart series',
+            ratings: '2/5'
         },
-    ] */
+    ]
 
 
     return (

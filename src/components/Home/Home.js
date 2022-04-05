@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useWatches from '../../hooks/useWatches';
-import Watches from '../Watches/Watches';
+import useReviews from '../../hooks/useReviews';
+import HomeReviews from '../HomeReviews/HomeReviews'
 import './Home.css'
 
 const Home = () => {
 
-    const [watches, setWatches] = useWatches()
-    console.log(watches);
+    const [reviews, setReviews] = useReviews()
 
     return (
         <div>
@@ -24,14 +23,14 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h1 className='d-flex justify-content-center mt-5'>Customer Reviews({watches.slice(0, 3).length})</h1>
+                <h1 className='d-flex justify-content-center mt-5'>Customer Reviews({reviews.slice(0, 3).length})</h1>
                 <div className='review-container'>
                     {
-                        watches.slice(0, 3).map(watch => <Watches watch={watch}></Watches>)
+                        reviews.slice(0, 3).map(review => <HomeReviews review={review} key={review.id}></HomeReviews>)
                     }
 
                 </div>
-                <div className='d-flex justify-content-center'>
+                <div className='d-flex justify-content-center mb-5'>
                     <Link to="/reviews" className='btn btn-primary'>See All Reviews</Link>
                 </div>
             </div>

@@ -1,19 +1,20 @@
 import React from 'react';
 import './Reviews.css'
-import useWatches from '../../hooks/useWatches';
 import SingleReviewCard from '../SingleReviewCard/SingleReviewCard'
+import useReviews from '../../hooks/useReviews';
 
 const Reviews = () => {
 
-    const [watches, setWatches] = useWatches()
-
-    const { image, name } = watches
+    const [reviews, setReviews] = useReviews()
 
     return (
         <div className='review d-flex justify-content-center flex-wrap'>
-            {
-                watches.map(review => <SingleReviewCard review={review} key={review.id}></SingleReviewCard>)
-            }
+            <h1 className='mt-5'>What our customer say!</h1>
+            <div className='review d-flex justify-content-center flex-wrap'>
+                {
+                    reviews.map(review => <SingleReviewCard review={review} key={review.id}></SingleReviewCard>)
+                }
+            </div>
         </div>
     );
 };
