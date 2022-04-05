@@ -3,7 +3,7 @@ My Project live website link :  https://smart-series.netlify.app/
 * In my website I make a reviews page.
 * In my website I also make a dashboard page.
 * In dashboard page I make two chart . They are  : 1. Line Chart, 2. Pie Chart.
-* At last I make blogs page . In blogs page i have make 2 cards. 
+* At last I make blogs page . In blogs page I have make 2 cards. 
 
 
 
