@@ -1,3 +1,14 @@
+# Smart series
+My Project live website link :  https://smart-series.netlify.app/
+* My website is based on review
+* my website has a navigation bar
+* In navigation bar i have set 5 thing. they are : home, reviews, dashboard, blogs and about 
+* The most important page is the reviews page 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
